@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../main-light.css" />
+    <link rel="stylesheet" href="../style/adaptiv.css">
+    <title>BestGames</title>
+  </head>
+  <body>
+
+<header>
+      <div class="head">
+        <div class="logo">
+          <img
+            src="../image/logo.png"
+            alt="logotip"
+            width="100px"
+            height="45px" />
+          <span class="name">Best Games</span>
+        </div>
+
+        <!-- Десктопное меню -->
+        <ul class="menu">
+          <li><a href="../catalog/catalog.html">Каталог</a></li>
+          <li><a href="">Поиск</a></li>
+          <li><a href="../profile/profile.html">Личный кабинет</a></li>
+          <li><a href="../login/login.html">Войти</a></li>
+        </ul>
+
+        <!-- Бургер-кнопка и мобильное меню -->
+        <input type="checkbox" id="burger-toggle" />
+        <label for="burger-toggle" class="burger">
+          <span></span>
+        </label>
+
+        <!-- Мобильное меню -->
+        <ul class="mobile-menu">
+          <li><a href="../catalog/catalog.html">Каталог</a></li>
+          <li><a href="">Поиск</a></li>
+          <li><a href="../profile/profile.html">Личный кабинет</a></li>
+          <li><a href="login/login.html">Войти</a></li>
+        </ul>
+      </div>
+    </header>
+    
+    <section> 
+
+        <div class="container">
+        <div class="slider-wrapper">
+          <div class="sliders">
+
+            <!-- Слайд 1 -->
+                <div class="slide" id="slider1">
+                    <img src="../image//game/cyberpunk.jpg" alt="Warface">
+                    <div class="slide-content">
+                        <h2 class="game-title">Warface</h2>
+                        <div class="game-price">Бесплатно</div>
+                        <button class="info-btn">Подробнее об игре</button>
+                    </div>
+                </div>
+                
+                <!-- Слайд 2 -->
+                <div class="slide" id="slider2">
+                    <img src="../image/game/pubg.jpg" alt="PUBG">
+                    <div class="slide-content">
+                        <h2 class="game-title">PUBG: Battlegrounds</h2>
+                        <div class="game-price">1 299 ₽</div>
+                        <button class="info-btn">Подробнее об игре</button>
+                    </div>
+                </div>
+                
+                <!-- Слайд 3 -->
+                <div class="slide" id="slider3">
+                    <img src="../image/game/warface.jpg" alt="Cyberpunk 2077">
+                    <div class="slide-content">
+                        <h2 class="game-title">Cyberpunk 2077</h2>
+                        <div class="game-price">1 999 ₽</div>
+                        <button class="info-btn">Подробнее об игре</button>
+                    </div>
+          </div>
+
+          <div class="controls">
+            <a href="#slider1"></a>
+            <a href="#slider2"></a>
+            <a href="#slider3"></a>
+          </div>
+        </div>
+
+      </div>
+      
+    </section>
+
+    <section>
+      
+      <div class="containers">
+        <h2 class="fast-search">Быстрый поиск</h2>
+        
+        <ul class="filters">
+          <a href="">
+            <li id="active">Все</li>
+          </a>
+          <a href="">
+            <li>Экшен</li>
+          </a>
+          <a href="">
+            <li>Шутре</li>
+          </a>
+          <a href="">
+            <li>Аниме</li>
+          </a>
+          <a href="">
+            <li>Спорт</li>
+          </a>
+          <a href="">
+            <li>Стратегия</li>
+          </a>
+          <a href="">
+            <li>Хоррор</li>
+          </a>
+        </ul>
+
+        <input type="text" placeholder="Поиск игры по нозванию, жанру, описанию" class="search-input">
+
+      </div>
+
+
+
+    </section>
+
+    <section>
+      <div class="containers">
+        <h3 class="why">Почему BestGame?</h3>
+        <div class="preference">
+          <div class="point">
+            <img src="../image/preference/gamepad.png" alt="">
+            <p><strong>Огромный каталог</strong></p>
+            <p>10,000+ игр от инди-разработчиков до AAA-студий</p>
+          </div>
+
+          <div class="point">
+            <img src="../image/preference/flash.png" alt="">
+            <p><strong>Быстрые покупки</strong></p>
+            <p>Мгновенная активация и доступ к вашим играм</p>
+          </div>
+
+          <div class="point">
+            <img src="../image/preference/trophey.png" alt="">
+            <p><strong>Киберспорт</strong></p>
+            <p>Турниры, рейтинги и призовые фонды до 1M$</p>
+          </div>
+
+          <div class="point">
+            <img src="../image/preference/people.png" alt="">
+            <p><strong>Огромный каталог</strong></p>
+            <p>Общайтесь с 100M+ геймеров по всему миру</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-games">
+        <h2 class="popular">Популярное</h2>
+        <div class="games">
+          
+          <a href="" class="a-card">
+            <div class="card">
+              <img src="../image/game/cyberpunk.jpg" alt="" class="img-card">
+              <div class="text">
+                <h5>Название</h5>
+                <p class="company"><strong>Компания </strong> &diams;    Жанр</p>
+                <img src="../image/star.png" alt="" class="reiting">
+                <div class="row">
+                  <p class="price">1599</p>
+                  <button class="btn-buy">Купить</button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="a-card">
+            <div class="card">
+              <img src="../image/game/warface.jpg" alt="" class="img-card">
+              <div class="text">
+                <h5>Название</h5>
+                <p class="company"><strong>Компания </strong> &diams;    Жанр</p>
+                <img src="../image/star.png" alt="" class="reiting">
+                <div class="row">
+                  <p class="price">1599</p>
+                  <button class="btn-buy">Купить</button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+
+          <a href="" class="a-card">
+            <div class="card">
+              <img src="../image/game/pubg.jpg" alt="" class="img-card">
+              <div class="text">
+                <h5>Название</h5>
+                <p class="company"><strong>Компания </strong> &diams;    Жанр</p>
+                <img src="../image/star.png" alt="" class="reiting">
+                <div class="row">
+                  <p class="price">1599</p>
+                  <button class="btn-buy">Купить</button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="a-card">
+            <div class="card">
+              <img src="../image/game/warface.jpg" alt="" class="img-card">
+              <div class="text">
+                <h5>Название</h5>
+                <p class="company"><strong>Компания </strong> &diams;    Жанр</p>
+                <img src="../image/star.png" alt="" class="reiting">
+                <div class="row">
+                  <p class="price">1599</p>
+                  <button class="btn-buy">Купить</button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="a-card">
+            <div class="card">
+              <img src="../image/game/warface.jpg" alt="" class="img-card">
+              <div class="text">
+                <h5>Название</h5>
+                <p class="company"><strong>Компания </strong> &diams;    Жанр</p>
+                <img src="../image/star.png" alt="" class="reiting">
+                <div class="row">
+                  <p class="price">1599</p>
+                  <button class="btn-buy">Купить</button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="a-card">
+            <div class="card">
+              <img src="../image/game/pubg.jpg" alt="" class="img-card">
+              <div class="text">
+                <h5>Название</h5>
+                <p class="company"><strong>Компания </strong> &diams;    Жанр</p>
+                <img src="../image/star.png" alt="" class="reiting">
+                <div class="row">
+                  <p class="price">1599</p>
+                  <button class="btn-buy">Купить</button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="a-card">
+            <div class="card">
+              <img src="../image/game//cyberpunk.jpg" alt="" class="img-card">
+              <div class="text">
+                <h5>Название</h5>
+                <p class="company"><strong>Компания </strong> &diams;    Жанр</p>
+                <img src="../image/star.png" alt="" class="reiting">
+                <div class="row">
+                  <p class="price">1599</p>
+                  <button class="btn-buy">Купить</button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="a-card">
+            <div class="card">
+              <img src="../image/game/clash.jpg" alt="" class="img-card">
+              <div class="text">
+                <h5>Название</h5>
+                <p class="company"><strong>Компания </strong> &diams;    Жанр</p>
+                <img src="../image/star.png" alt="" class="reiting">
+                <div class="row">
+                  <p class="price">1599</p>
+                  <button class="btn-buy">Купить</button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="a-card">
+            <div class="card">
+              <img src="../image/game/pubg.jpg" alt="" class="img-card">
+              <div class="text">
+                <h5>Название</h5>
+                <p class="company"><strong>Компания </strong> &diams;    Жанр</p>
+                <img src="../image/star.png" alt="" class="reiting">
+                <div class="row">
+                  <p class="price">1599</p>
+                  <button class="btn-buy">Купить</button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="a-card">
+            <div class="card">
+              <img src="../image/game/clash.jpg" alt="" class="img-card">
+              <div class="text">
+                <h5>Название</h5>
+                <p class="company"><strong>Компания </strong> &diams;    Жанр</p>
+                <img src="../image/star.png" alt="" class="reiting">
+                <div class="row">
+                  <p class="price">1599</p>
+                  <button class="btn-buy">Купить</button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-part">
+        <h2 class="h2-part">Наши партнеры</h2>
+        <div class="part">
+
+          <div class="partner">
+            <img src="../image/partner/alibaba.png" alt="" class="img-part">
+          </div>
+
+          <div class="partner">
+            <img src="../image/partner/rostics.png" alt="" class="img-part">
+          </div>
+
+          <div class="partner">
+            <img src="../image/partner/axelbolt.jpg" alt="" class="img-part">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="feadback">
+        <div class="contact">
+          <strong>Контакты</strong>
+          <p class="number">Телефон (<a href="">8-800-999-55-99</a>)</p>
+          <p class="e">
+            E-mail: <a href="mailto:best@games.ru">best@games.ru</a>
+          </p>
+        </div>
+
+        <div class="nav">
+          <strong>Навигация</strong>
+          <a href="../main/index.html">
+            <p>Главная</p>
+          </a>
+          <a href="../register/register.html">
+            <p>Регистрация</p>
+          </a>
+          <a href="../login/login.html">
+            <p>Авторизация</p>
+          </a>
+          <a href="../profile/profile.html">
+            <p>Личный кабинет</p>
+          </a>
+        </div>
+
+        <div class="inf">
+          <strong>Информация</strong>
+          <a href="">
+            <p>Клиентам</p>
+          </a>
+          <a href="">
+            <p>Партнерам</p>
+          </a>
+          <a href="">
+            <p>О нас</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  
+  </body>
+</html>

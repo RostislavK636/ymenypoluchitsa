@@ -1,0 +1,53 @@
+.container-double{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-inline: 5%;
+    display: flex;
+    gap: 100px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+}
+
+.container-profil{
+    border-right: 5px solid rgb(216, 216, 216);
+    min-height: 1200px;
+    padding-right: 20px;
+
+}
+
+.container-profil *{
+    margin-bottom: 15px;
+}
+
+
+
+button{
+    border: 0.5px solid rgb(204, 204, 204);
+    width: 100%;
+}
+
+.container-history{
+    width: 100%;
+}
+
+.game-card{
+    display: block;
+    width: 100%;
+}
+
+.card-buy{
+    display: flex;
+    gap:40px;
+    margin-bottom: 30px;
+}
+
+.card-buy h5{
+    color: black;
+}
+
+.inf-game{
+    margin-top: 15px;
+}

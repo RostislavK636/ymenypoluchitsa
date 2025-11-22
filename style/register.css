@@ -1,0 +1,44 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.container-register{
+    margin-top: 200px;
+    width: 700px;
+    text-align: center;
+    background-color: rgba(230, 230, 230, 0.478);
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.class-input{
+    margin: 30px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    border-color: rgba(199, 199, 255, 0.411);
+    width: 80%;
+
+}
+.radio-input{
+    width: 5%;
+}
+
+
+
+@media (min-width: 2500px){
+    .feadback{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+
+}
